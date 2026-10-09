@@ -35,6 +35,8 @@ def check(root):
             raise ValueError('Invalid claim: '+c['id'])
     skill=(root/'SKILL.md').read_text(encoding='utf-8')
     if not skill.startswith('---\nname: xuxiaoyu-skill\n'):raise ValueError('Invalid skill identity')
+    version=re.search(r'^  version: "([^"]+)"$',skill,re.M)
+    if not version or version.group(1)!=manifest['version']:raise ValueError('Version mismatch')
     if 'TODO' in skill:raise ValueError('Unfinished entrypoint')
     return {'files':len(files),'sources':len(sources),'claims':len(claims),'offline_resources':'ok'}
 

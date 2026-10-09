@@ -9,5 +9,5 @@ for p in sorted(root.rglob('*')):
     if not p.is_file() or p.name=='manifest.json' or any(x.startswith('.') or x=='__pycache__' for x in rel.parts):continue
     if p.suffix=='.pyc':continue
     files[rel.as_posix()]=hashlib.sha256(p.read_bytes()).hexdigest()
-(root/'manifest.json').write_text(json.dumps({'name':'xuxiaoyu-skill','version':'3.0.0','files':files},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+(root/'manifest.json').write_text(json.dumps({'name':'xuxiaoyu-skill','version':'4.0.0','files':files},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('Manifest files:',len(files))
