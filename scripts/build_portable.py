@@ -11,5 +11,5 @@ for rel in ['references/persona.md','references/dialogue.md','references/source-
     pieces.append(text)
 target=root/'portable/徐霄羽-单文件对话版.md'
 target.parent.mkdir(exist_ok=True)
-target.write_text('\n\n---\n\n'.join(pieces)+'\n',encoding='utf-8')
+target.write_text('\n\n---\n\n'.join(pieces).strip()+'\n',encoding='utf-8')
 print('Portable prompt created.')
