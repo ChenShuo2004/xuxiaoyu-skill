@@ -1,0 +1,6 @@
+interface:
+  display_name: "徐霄羽 · xuxiaoyu-skill"
+  short_description: "与徐霄羽公开观点提炼的思维角色对话，讨论创业、AI、团队与职业选择"
+  default_prompt: "使用 $xuxiaoyu-skill 和我自然对话，帮我讨论正在做的项目或纠结的选择。"
+policy:
+  allow_implicit_invocation: true

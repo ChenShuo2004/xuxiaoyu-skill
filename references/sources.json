@@ -1,0 +1,172 @@
+[
+  {
+    "id": "S01",
+    "title": "AMINO Sue Xu 官网",
+    "url": "https://www.aminocapital.com/team/sue-xu",
+    "date": "undated",
+    "kind": "institution",
+    "read_scope": "可见正文",
+    "limitations": "管理合伙人、GlycoMira 创始科学家、斯坦福博士后；博士授予学校没有在该页确认。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S02",
+    "title": "AMINO How we invest",
+    "url": "https://www.aminocapital.com/how-we-invest",
+    "date": "undated",
+    "kind": "institution",
+    "read_scope": "可见正文",
+    "limitations": "机构投资定位；不能逐条等同个人固定规则。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S03",
+    "title": "KoreaTechDesk 十问十答",
+    "url": "https://koreatechdesk.com/amino-capitals-dr-sue-xu-the-investor-who-can-provide-an-abundance-of-advice-to-startups",
+    "date": "2019-04-26",
+    "kind": "edited-interview",
+    "read_scope": "十问十答正文",
+    "limitations": "历史票额与地域表述不当作当前规则；文中商业写作广告排除。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S04",
+    "title": "AMINO CES 2020 对谈",
+    "url": "https://medium.com/amino-insights/a-conversation-with-amino-partner-dr-sue-xu-ces-2020-insights-on-current-tech-trends-57f106781852",
+    "date": "2020-01-23",
+    "kind": "edited-interview",
+    "read_scope": "采访正文",
+    "limitations": "医学类比与商业案例不是临床效果证明。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S05",
+    "title": "凤凰网科技中文采访",
+    "url": "https://i.ifeng.com/c/8Rtx4yIfqmF",
+    "date": "2023-08-01",
+    "kind": "edited-interview",
+    "read_scope": "整理后对谈正文",
+    "limitations": "技术概括不能替代技术核验。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S06",
+    "title": "YUVC #7",
+    "url": "https://podcasts.apple.com/us/podcast/sue-xu-mp-at-amino-capital-talks-about-10-years-investing/id1737560550?i=1000651701016",
+    "date": "2024-04-07",
+    "kind": "show-notes",
+    "read_scope": "简介与两条节目方摘录；未转写全音频",
+    "limitations": "主办方摘要，不能称完整本人回答。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S07",
+    "title": "SiliconANGLE / theCUBE",
+    "url": "https://siliconangle.com/2025/06/23/ai-startup-culture-young-founders-roboticsaiinfrastructure/",
+    "date": "2025-06-23",
+    "kind": "reported-quotes",
+    "read_scope": "完整文章；仅采用明确归给 Sue 的段落",
+    "limitations": "同场其他嘉宾不混入；成长轮指标不用于所有种子轮。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S08",
+    "title": "Sue Xu Midas 帖文",
+    "url": "https://www.linkedin.com/posts/suexu_midaslist2025-forbes-aminocapital-activity-7333278398359736321-Tx7a",
+    "date": "2025",
+    "kind": "self-post",
+    "read_scope": "本人正文",
+    "limitations": "帖中 Midas 成绩属于 Larry Li，不属于 Sue。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S09",
+    "title": "EqualOcean：OpenClaw 与美元基金",
+    "url": "https://www.xiaoyuzhoufm.com/episode/69b7d71fcaaea1fb3b90c1bd",
+    "date": "2026-03-16",
+    "kind": "machine-transcript",
+    "read_scope": "完整49.35分钟音频本地ASR；选段阅读：03–25、31–38、40–49分钟",
+    "limitations": "未人工听校整集、未自动分人；命题按问答边界判断归属，姓名数字低置信不采用。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S10",
+    "title": "Investor Connect: Data Moats, Not Demos",
+    "url": "https://investorconnect.org/investor-connect-data-moats-not-demos-how-to-build-durable-ai-investments/",
+    "date": "2026-04-03",
+    "kind": "show-notes",
+    "read_scope": "主办方摘要",
+    "limitations": "音频播放器提示 premium subscription，未绕过，未获得完整转写。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S11",
+    "title": "2017 硅星闻人物访谈",
+    "url": "https://www.sohu.com/a/124602972_313323",
+    "date": "2017-01-18",
+    "kind": "edited-interview",
+    "read_scope": "采访正文",
+    "limitations": "历史趋势预测、宣传数字不当当前事实。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S12",
+    "title": "界面新闻医疗 AI 采访（搜狐分发）",
+    "url": "https://www.sohu.com/a/476425189_313745",
+    "date": "2021-07-09",
+    "kind": "edited-interview",
+    "read_scope": "公开正文全文；记者李京亚",
+    "limitations": "产品与临床数字未独立验证，保留为历史商业案例。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S13",
+    "title": "AMINO / 胡润峰会报道",
+    "url": "https://k.sina.com.cn/article_2380399342_8de202ee02700yk0v.html",
+    "date": "2022-02-09",
+    "kind": "reported-quotes",
+    "read_scope": "完整报道；仅 Sue Consumer SaaS 段落",
+    "limitations": "活动在2021-12-21；Karbon创始人及其他合伙人演讲不归给她。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S14",
+    "title": "知乎盐沙龙人生选择报道",
+    "url": "https://news.mydrivers.com/1/1043/1043112.htm",
+    "date": "2025-04-21",
+    "kind": "report-summary",
+    "read_scope": "网页可见 Sue 生涯设计段落",
+    "limitations": "活动2025-04-19；五项原则来自斯坦福设计学院方法，她作分享，不是她发明。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S15",
+    "title": "Silicon Dragon Ask A VC with Sue Xu",
+    "url": "https://www.youtube.com/watch?v=k_SqsPfKcJU",
+    "date": "2025-09-14",
+    "kind": "automatic-captions",
+    "read_scope": "完整64.72分钟官方视频自动英文字幕1471行已读",
+    "limitations": "日期为上传日，开场提及8月；无人工听校，专名错误与自报业绩不作独立事实。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S16",
+    "title": "梁帆秀：大数据驱动的风险投资",
+    "url": "https://www.xiaoyuzhoufm.com/episode/643c591f9361a4e7c3b5b1de",
+    "date": "2023-04-17",
+    "kind": "machine-transcript",
+    "read_scope": "完整114.57分钟音频本地ASR；选段阅读：00–16、25–32、58–65、78–84、95–115分钟",
+    "limitations": "未人工听校整集；未读段落不用于提炼；主持人履历介绍与本人回答分开。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S17",
+    "title": "Venture with Grace 原节目入口",
+    "url": "https://svppro.com/week-126-of-venture-with-grace-2/",
+    "date": "2026-07-27",
+    "kind": "show-notes",
+    "read_scope": "原节目周报与公开自动转写预览前08:22",
+    "limitations": "完整转写需登录，未绕过；本版仅作补充线索，不增强核心模型。",
+    "checked_on": "2026-10-09"
+  }
+]
