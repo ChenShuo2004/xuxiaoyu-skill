@@ -1,0 +1,351 @@
+[
+  {
+    "id": "T01",
+    "key": "data",
+    "title": "数据优势",
+    "keywords": [
+      "数据",
+      "壁垒",
+      "飞轮",
+      "标注",
+      "日志"
+    ],
+    "claim_ids": [
+      "X001",
+      "X010",
+      "X022",
+      "X052",
+      "X053",
+      "X064",
+      "X102"
+    ],
+    "evidence_kind": "editorial-framework",
+    "opening": "先问数据进入哪个任务，才能谈规模与壁垒。",
+    "workflow": "入口与使用权 → 可解释字段 → 结果反馈 → 对照实验 → 获取下一批有效数据。",
+    "counterexamples": "相同日志可能被复制；更多数据可能更脏；任务做对也不代表客户愿意付费。",
+    "experiment": "把一条数据跟到最终结果，记录授权、处理、判断、结果及下一次改进。",
+    "conditional_judgment": "任务变好需要数据、领域理解和行动配合，但每条箭头都需证据。",
+    "file": "topics/data.md"
+  },
+  {
+    "id": "T02",
+    "key": "workflow",
+    "title": "AI与工作流",
+    "keywords": [
+      "Agent",
+      "智能体",
+      "模型",
+      "交付",
+      "自动化"
+    ],
+    "claim_ids": [
+      "X020",
+      "X021",
+      "X051",
+      "X054",
+      "X055",
+      "X061",
+      "X138",
+      "X148"
+    ],
+    "evidence_kind": "editorial-framework",
+    "opening": "把自动化拆到有人负责验收的最小任务。",
+    "workflow": "输入 → 计划 → 执行 → 检查 → 交付 → 失败恢复；先观察现行流程。",
+    "counterexamples": "演示无误不证明长期可靠；通用模型能力提高可能压缩产品差异。",
+    "experiment": "实测一项有人工兜底的任务，记录省了哪段工时、错误和重做。",
+    "conditional_judgment": "负责人需要亲自使用，并区分自动整理信息与自动替人做决定。",
+    "file": "topics/workflow.md"
+  },
+  {
+    "id": "T03",
+    "key": "product",
+    "title": "用户与采用",
+    "keywords": [
+      "用户",
+      "需求",
+      "增长",
+      "复购",
+      "SaaS",
+      "PMF"
+    ],
+    "claim_ids": [
+      "X008",
+      "X025",
+      "X027",
+      "X029",
+      "X037",
+      "X039",
+      "X085",
+      "X082",
+      "X130"
+    ],
+    "evidence_kind": "editorial-framework",
+    "opening": "一个被忽略的具体任务，比宽泛人群标签更可验证。",
+    "workflow": "需求频次 → 旧替代方案 → 首次完成 → 再次使用 → 自发推荐 → 扩张条件。",
+    "counterexamples": "注册、活跃、收入、复购和网络效应是不同指标，不能混算。",
+    "experiment": "跟踪同一批用户两轮任务，观察重复使用原因，而非只展示首轮数据。",
+    "conditional_judgment": "窄入口可以演变成更广市场，但并不保证扩张一定发生。",
+    "file": "topics/product.md"
+  },
+  {
+    "id": "T04",
+    "key": "team",
+    "title": "创始团队与领导力",
+    "keywords": [
+      "团队",
+      "创始人",
+      "管理",
+      "合伙",
+      "招聘"
+    ],
+    "claim_ids": [
+      "X003",
+      "X018",
+      "X030",
+      "X036",
+      "X045",
+      "X047",
+      "X083",
+      "X141",
+      "X145"
+    ],
+    "evidence_kind": "editorial-framework",
+    "opening": "能力必须能体现在真实产品与合作过程。",
+    "workflow": "技术交付 → 用户理解 → 分工与责任 → 招聘 → 意见改变 → 组织成长。",
+    "counterexamples": "名校不等于执行，互补不等于没有共同判断，分工表不等于有人担责。",
+    "experiment": "选择最近一次失败交付，让各负责人解释过程，再核对行为改变。",
+    "conditional_judgment": "可辅导性通过采取不同动作观察，不能只靠表达谦虚。",
+    "file": "topics/team.md"
+  },
+  {
+    "id": "T05",
+    "key": "capital",
+    "title": "阶段与融资",
+    "keywords": [
+      "融资",
+      "投资",
+      "现金",
+      "估值",
+      "VC",
+      "拒投"
+    ],
+    "claim_ids": [
+      "X004",
+      "X005",
+      "X013",
+      "X014",
+      "X028",
+      "X033",
+      "X038",
+      "X040",
+      "X067",
+      "X135",
+      "X147"
+    ],
+    "evidence_kind": "editorial-framework",
+    "opening": "先确定下一阶段需要证明什么，再确定需要何种资本。",
+    "workflow": "阶段 → 里程碑 → 预算 → 现金约束 → 投资人匹配 → 新证据更新。",
+    "counterexamples": "有收入不等于可扩张；高增长不等于自然采用；合适基金拒绝也非产品最终判决。",
+    "experiment": "把下一轮融资前必须成立的三项事实写成实验和预算。",
+    "conditional_judgment": "早期不确定与成长阶段指标不同，历史数字不应硬编码成所有人的门槛。",
+    "file": "topics/capital.md"
+  },
+  {
+    "id": "T06",
+    "key": "network",
+    "title": "网络与协作",
+    "keywords": [
+      "人脉",
+      "资源",
+      "信任",
+      "使命",
+      "引荐"
+    ],
+    "claim_ids": [
+      "X002",
+      "X015",
+      "X035",
+      "X043",
+      "X059",
+      "X060",
+      "X126",
+      "X132"
+    ],
+    "evidence_kind": "editorial-framework",
+    "opening": "把关系落实为某个真实任务的验证或协作。",
+    "workflow": "明确需求 → 有协作证据的人 → 尊重时间的交流 → 双方可兑现的动作。",
+    "counterexamples": "关系可能造成同圈偏见；承诺引荐与实际愿意引荐不同；好友也可能不适配。",
+    "experiment": "会面前发一页真实问题和证据，结束后明确下一步与负责人。",
+    "conditional_judgment": "使命可以帮助他人理解你，但不能用使命代替业务事实。",
+    "file": "topics/network.md"
+  },
+  {
+    "id": "T07",
+    "key": "global",
+    "title": "出海与本地化",
+    "keywords": [
+      "出海",
+      "全球化",
+      "美国",
+      "硅谷",
+      "本地"
+    ],
+    "claim_ids": [
+      "X056",
+      "X057",
+      "X058",
+      "X071",
+      "X151",
+      "X152"
+    ],
+    "evidence_kind": "editorial-framework",
+    "opening": "进入新市场要重新验证需求、渠道、成本和信任。",
+    "workflow": "已有优势 → 本地用户 → 购买与交付 → 团队资源 → 规则核验 → 扩张。",
+    "counterexamples": "原市场成功不保证本地采用；翻译不是市场进入；法律限制不能从旧访谈套用。",
+    "experiment": "完成一次当地客户从接触到交付的试点，计算全部成本。",
+    "conditional_judgment": "成熟企业与初创企业所需资源不同，复制热门赛道容易忽略自己的起点。",
+    "file": "topics/global.md"
+  },
+  {
+    "id": "T08",
+    "key": "career",
+    "title": "科研、兴趣与职业",
+    "keywords": [
+      "职业",
+      "转行",
+      "科研",
+      "热爱",
+      "学习",
+      "人生"
+    ],
+    "claim_ids": [
+      "X006",
+      "X011",
+      "X026",
+      "X041",
+      "X042",
+      "X048",
+      "X049",
+      "X050",
+      "X063",
+      "X074",
+      "X075",
+      "X116"
+    ],
+    "evidence_kind": "editorial-framework",
+    "opening": "用实际体验与可承担代价判断路径，避免身份故事替人做决定。",
+    "workflow": "主动投入 → 小型体验 → 创造价值 → 现实约束 → 多条路径 → 支持系统。",
+    "counterexamples": "个人故事具有幸存者偏差；喜欢成果不等于喜欢日常过程；热爱不消除责任。",
+    "experiment": "保留现有收入安排，做一个两周实验，并记下最有精力与最耗竭的环节。",
+    "conditional_judgment": "职业自豪可以来自多种工作，不必将创业设为唯一答案。",
+    "file": "topics/career.md"
+  },
+  {
+    "id": "T09",
+    "key": "health",
+    "title": "医疗与深科技",
+    "keywords": [
+      "医疗",
+      "临床",
+      "科研转化",
+      "基因",
+      "研发"
+    ],
+    "claim_ids": [
+      "X007",
+      "X020",
+      "X021",
+      "X022",
+      "X024",
+      "X081",
+      "X121"
+    ],
+    "evidence_kind": "editorial-framework",
+    "opening": "商业案例用于提出机制，科学效果需要独立研究。",
+    "workflow": "任务与人群 → 数据与证据 → 验证设计 → 研发里程碑 → 交付与责任。",
+    "counterexamples": "采访中的效果、估值和融资不是临床证据；一个人群结果不能直接外推。",
+    "experiment": "先整理研究问题与证据等级，再让具备资质的人员判断验证方案。",
+    "conditional_judgment": "多学科结合能提供机会，同时增加交接、解释与长期研发要求。",
+    "file": "topics/health.md"
+  },
+  {
+    "id": "T10",
+    "key": "creator",
+    "title": "创作者与消费体验",
+    "keywords": [
+      "创作者",
+      "直播",
+      "粉丝",
+      "内容",
+      "娱乐",
+      "品牌"
+    ],
+    "claim_ids": [
+      "X096",
+      "X097",
+      "X098",
+      "X099"
+    ],
+    "evidence_kind": "editorial-framework",
+    "opening": "观看者、购买者与赞助者可能是不同的人。",
+    "workflow": "内容体验 → 情感价值 → 交易机制 → 生产交付 → 退款与复购。",
+    "counterexamples": "曝光不等于交易；粉丝投票不等于订单；品牌预算不等于观众支付。",
+    "experiment": "分别验证一种付费体验和一个预算方需求，再连成完整交易。",
+    "conditional_judgment": "文化差异与后台工具机会需要当前真实用户资料，不能照搬2020判断。",
+    "file": "topics/creator.md"
+  },
+  {
+    "id": "T11",
+    "key": "operations",
+    "title": "数据系统与决策",
+    "keywords": [
+      "CRM",
+      "ERP",
+      "尽调",
+      "数据整理",
+      "检索"
+    ],
+    "claim_ids": [
+      "X032",
+      "X044",
+      "X061",
+      "X137",
+      "X138",
+      "X139"
+    ],
+    "evidence_kind": "editorial-framework",
+    "opening": "自动化记录和检索先解决遗漏与时延，人类判断仍可保留。",
+    "workflow": "采集范围 → 来源身份 → 规范化 → 去重 → 标注 → 检索 → 复核 → 版本。",
+    "counterexamples": "来源重复会虚增信心；自动摘要会混说话人；模型评分可能掩盖不可比项目。",
+    "experiment": "选十份材料人工建立对照，再测系统查错、追溯与节省时间。",
+    "conditional_judgment": "系统由实际使用者反馈迭代，不能承诺自动预测创业赢家。",
+    "file": "topics/operations.md"
+  },
+  {
+    "id": "T12",
+    "key": "ethics",
+    "title": "风险、诚实与边界",
+    "keywords": [
+      "伦理",
+      "隐私",
+      "风险",
+      "偏见",
+      "责任"
+    ],
+    "claim_ids": [
+      "X012",
+      "X038",
+      "X040",
+      "X062",
+      "X129",
+      "X100"
+    ],
+    "evidence_kind": "editorial-framework",
+    "opening": "公开观点可以讨论，身份、权限和精确引语必须有证据。",
+    "workflow": "来源归属 → 使用范围 → 阶段条件 → 不确定性 → 反例 → 验证动作。",
+    "counterexamples": "乐观叙事不保证社会结果；历史态度不授权采集当前数据；角色不能承诺真实投资。",
+    "experiment": "列出一条会让自己改变判断的反证，并在新证据出现时更新。",
+    "conditional_judgment": "人物模拟服务于思考，不代替本人发言、投资决策或专业事实核验。",
+    "file": "topics/ethics.md"
+  }
+]

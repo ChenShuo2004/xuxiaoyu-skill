@@ -1,0 +1,435 @@
+[
+  {
+    "id": "C01",
+    "title": "Chime",
+    "topic": "未充分服务的消费金融用户",
+    "claim_ids": [
+      "X008",
+      "X131"
+    ],
+    "source_ids": [
+      "S04",
+      "S16"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "先缩窄用户群，确认旧服务在哪一步使用户放弃。",
+    "experiment": "选择一种反复发生的账户任务，比较完成时间、失败原因和再次使用。",
+    "failure_mode": "只凭“年轻人都喜欢手机”推导需求，或把历史业务描述当当前银行资质。",
+    "verification_needed": "用户任务、支付意愿、重复使用及当前官方产品信息。"
+  },
+  {
+    "id": "C02",
+    "title": "Weee!",
+    "topic": "特定生鲜消费群体",
+    "claim_ids": [
+      "X029",
+      "X037"
+    ],
+    "source_ids": [
+      "S15"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "细分群体可以是入口，关键是具体供给与体验差异。",
+    "experiment": "访谈五位买不到所需商品的用户，完成一次真实供货交付。",
+    "failure_mode": "把族裔人口乘客单价直接当可获得市场，忽略库存与履约。",
+    "verification_needed": "采购频次、缺货、毛利、配送损耗和用户复购。"
+  },
+  {
+    "id": "C03",
+    "title": "Replit",
+    "topic": "编程工具用途演变",
+    "claim_ids": [
+      "X031",
+      "X150"
+    ],
+    "source_ids": [
+      "S15",
+      "S16"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "项目早期标签可以变化，持续创造的用途才是观察点。",
+    "experiment": "追踪用户从首次运行到发布成品的断点，观察哪类需求自然出现。",
+    "failure_mode": "把2023融资与利润口述当今天事实，或给所有项目强行讲平台故事。",
+    "verification_needed": "任务完成率、真实发布、付费使用和当期官方功能。"
+  },
+  {
+    "id": "C04",
+    "title": "Rippling",
+    "topic": "员工采用与企业付费",
+    "claim_ids": [
+      "X025",
+      "X082"
+    ],
+    "source_ids": [
+      "S13",
+      "S19"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "使用者、购买者与审批者需要分别识别。",
+    "experiment": "在一个团队试用，记录员工愿意用却企业不能买的阻力。",
+    "failure_mode": "把自下而上理解成永远免费，忽视IT安全、权限与采购。",
+    "verification_needed": "试用、内部推荐、审批周期及实际预算归属。"
+  },
+  {
+    "id": "C05",
+    "title": "Viz.ai",
+    "topic": "从算法到通知和处置",
+    "claim_ids": [
+      "X021",
+      "X020"
+    ],
+    "source_ids": [
+      "S12"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "识别结果需要被正确的人及时接收并完成后续动作。",
+    "experiment": "选非临床演示数据，走通输入、通知、确认、升级与审计。",
+    "failure_mode": "用访谈替代临床验证，或只量模型准确率不查处置断点。",
+    "verification_needed": "任务交接延迟、漏处理、人工兜底及独立临床资料。"
+  },
+  {
+    "id": "C06",
+    "title": "Grail",
+    "topic": "深科技资金与研发周期",
+    "claim_ids": [
+      "X081"
+    ],
+    "source_ids": [
+      "S19"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "高技术不确定性要求明确资金需求和研发里程碑。",
+    "experiment": "写出下一阶段实验、预算、终止条件与负责人，再评估资本匹配。",
+    "failure_mode": "把收购金额当临床有效性，或假设短期现金流适用于长期研发。",
+    "verification_needed": "可复现实验、验证阶段、现金消耗与独立医学证据。"
+  },
+  {
+    "id": "C07",
+    "title": "Skycatch",
+    "topic": "工业测绘进入行业流程",
+    "claim_ids": [
+      "X072"
+    ],
+    "source_ids": [
+      "S18"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "一份技术输出要成为行业使用者能执行的工作材料。",
+    "experiment": "让现场经理用一张示意数据图完成资产核对，观察是否还要重做。",
+    "failure_mode": "只演示漂亮3D画面，不确认现场交付标准；引用旧App为现售功能。",
+    "verification_needed": "行业验收、误差容忍、交付格式和当前官方资料。"
+  },
+  {
+    "id": "C08",
+    "title": "Orbeus",
+    "topic": "数据与识别应用",
+    "claim_ids": [
+      "X016",
+      "X073"
+    ],
+    "source_ids": [
+      "S11",
+      "S18"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "历史成功只能提出可检验机制，不能证明今天相似项目会赢。",
+    "experiment": "比较购买通用模型与自建任务数据两种方案，检查新增效果。",
+    "failure_mode": "把收购事件写成算法获胜的因果证明，或复述ASR中的技术史错误。",
+    "verification_needed": "任务改善、数据可用性、维护成本与当前竞争替代。"
+  },
+  {
+    "id": "C09",
+    "title": "Human Longevity",
+    "topic": "多种医疗上下文",
+    "claim_ids": [
+      "X121",
+      "X022"
+    ],
+    "source_ids": [
+      "S11",
+      "S12"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "结构、语义、患者上下文与使用场景应一并处理。",
+    "experiment": "用获准的匿名样例定义字段、缺失值和目标任务，建立复核环节。",
+    "failure_mode": "将2017愿景叙述包装成已验证延寿效果，或未经授权汇总健康数据。",
+    "verification_needed": "独立研究、数据使用范围、标注一致性与适用人群。"
+  },
+  {
+    "id": "C10",
+    "title": "Orah / VR内容",
+    "topic": "内容成本与制作门槛",
+    "claim_ids": [
+      "X119",
+      "X120"
+    ],
+    "source_ids": [
+      "S11"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "用户价值可能在制作过程，而非只在最终展示效果。",
+    "experiment": "测量一段内容从拍摄到可发布的工时、返工点与设备成本。",
+    "failure_mode": "把2017预测当今日市场结论，或只比画面规格不比全流程成本。",
+    "verification_needed": "制作时间、内容需求、交付质量与实时产品价格。"
+  },
+  {
+    "id": "C11",
+    "title": "Wyze",
+    "topic": "低门槛硬件采用",
+    "claim_ids": [
+      "X101",
+      "X004"
+    ],
+    "source_ids": [
+      "S03",
+      "S20"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "购买门槛、易用性、服务维护和现金周转共同决定落地。",
+    "experiment": "模拟小批量交付，列硬件、运输、返修、支持和回款。",
+    "failure_mode": "复用2020口述价格、续航或联网技术作为现在的产品参数。",
+    "verification_needed": "现售规格、安装成功、返修率和实际付款周期。"
+  },
+  {
+    "id": "C12",
+    "title": "Playlist",
+    "topic": "线上演出交易",
+    "claim_ids": [
+      "X096"
+    ],
+    "source_ids": [
+      "S20"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "识别愿意为明确体验付费的人，而非将观看量当收入。",
+    "experiment": "用自有或获授权的内容测试一次付费活动，单独记录退款。",
+    "failure_mode": "假设粉丝自然付钱，或用历史案例说明任何社群都有付费需求。",
+    "verification_needed": "付费转化、参与体验、退款和下一次购买。"
+  },
+  {
+    "id": "C13",
+    "title": "DataBeyond",
+    "topic": "粉丝反馈到商品交付",
+    "claim_ids": [
+      "X097"
+    ],
+    "source_ids": [
+      "S20"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "反馈需要影响生产或供给决策，才可能产生业务价值。",
+    "experiment": "选择一个自有商品，把反馈、打样、订购、发货和退款串起来。",
+    "failure_mode": "把投票数直接转成采购量，忽略粉丝表达与实际付款差异。",
+    "verification_needed": "订单、设计修改、生产周期、库存和退货原因。"
+  },
+  {
+    "id": "C14",
+    "title": "Battlefy",
+    "topic": "赛事与品牌预算",
+    "claim_ids": [
+      "X098"
+    ],
+    "source_ids": [
+      "S20"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "参与者体验和赞助者收益是两套价值主张。",
+    "experiment": "设计小型获授权赛事，分别与玩家和预算负责人验证方案。",
+    "failure_mode": "只证明有人玩，不证明品牌预算愿意付钱或赞助效果可衡量。",
+    "verification_needed": "参与留存、赞助交付、曝光质量和预算审批。"
+  },
+  {
+    "id": "C15",
+    "title": "菜品评价与外卖",
+    "topic": "商业动力改变数据供给",
+    "claim_ids": [
+      "X085",
+      "X086"
+    ],
+    "source_ids": [
+      "S19"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "数据细化往往依赖某个真实交易流程提供动力。",
+    "experiment": "先访谈经营者为何愿意维护数据，再测试一周维护成本。",
+    "failure_mode": "认为细粒度信息越多越好，却没有人承担录入和更新。",
+    "verification_needed": "数据维护责任、交易影响、有效字段和更新频次。"
+  },
+  {
+    "id": "C16",
+    "title": "Honey：错失投资回顾",
+    "topic": "失败后的学习",
+    "claim_ids": [
+      "X047"
+    ],
+    "source_ids": [
+      "S16"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "过去失败可以是材料，但需要观察具体能力的改变。",
+    "experiment": "比较上次失败与这次项目的用户、团队和决策方式，找真实改变。",
+    "failure_mode": "把第二次创业自动看作更可靠，或编出未公开拒投原因。",
+    "verification_needed": "失败复盘、行为变化、外部反馈和这次交付证据。"
+  },
+  {
+    "id": "C17",
+    "title": "PayPal / 支付战争",
+    "topic": "年轻团队解决实际问题",
+    "claim_ids": [
+      "X046"
+    ],
+    "source_ids": [
+      "S16"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "读他人创业经历应提炼处理问题的动作，而非复制英雄叙事。",
+    "experiment": "为当前最紧急阻塞指定负责人，做一次短周期交付复盘。",
+    "failure_mode": "将书中故事当她亲历事件，或鼓动冒险来证明创业精神。",
+    "verification_needed": "实际问题、响应速度、资源约束与复盘记录。"
+  },
+  {
+    "id": "C18",
+    "title": "GlycoMira / 科研转化",
+    "topic": "科研兴趣与职业变化",
+    "claim_ids": [
+      "X041",
+      "X075"
+    ],
+    "source_ids": [
+      "S16",
+      "S19"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "研究与创业的连接可以通过实际参与逐步体验。",
+    "experiment": "做一个不影响现有责任的小型转化调研，记录喜欢和抗拒的环节。",
+    "failure_mode": "替她补写博士学校、私人导师关系或具体专利归属。",
+    "verification_needed": "官方履历、项目参与记录、真实工作体验和收入约束。"
+  },
+  {
+    "id": "C19",
+    "title": "AMINO CRM与ERP",
+    "topic": "系统辅助判断",
+    "claim_ids": [
+      "X032",
+      "X138",
+      "X139"
+    ],
+    "source_ids": [
+      "S15",
+      "S16"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "让记录、查找和比较变快，与自动判定赢家是两件事。",
+    "experiment": "对同一批资料手工与系统处理，比较遗漏、耗时和需人工判断处。",
+    "failure_mode": "宣称这个Skill内置AMINO私有系统，或说标注已保证投资成功。",
+    "verification_needed": "记录完整性、来源可追溯、人工复核和决策时延。"
+  },
+  {
+    "id": "C20",
+    "title": "品牌投放分析工具",
+    "topic": "热潮背后的配套工作",
+    "claim_ids": [
+      "X095"
+    ],
+    "source_ids": [
+      "S20"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "热门前台之外，运营者反复完成的后台任务也值得验证。",
+    "experiment": "观察三名真实操作者如何汇总跨渠道数据，试交一份可用报告。",
+    "failure_mode": "只凭平台增长推导工具需求，忽略预算、接口和实际替代品。",
+    "verification_needed": "重复工时、数据权限、原有工具和付费试点。"
+  },
+  {
+    "id": "C21",
+    "title": "资本—人才—大企业地图",
+    "topic": "赴美市场进入",
+    "claim_ids": [
+      "X151",
+      "X152"
+    ],
+    "source_ids": [
+      "S09"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "按当前阶段找到能验证产品或协作的人，不能只收集名人。",
+    "experiment": "列出一个目标客户、一个交付伙伴和一个关键岗位，安排可验证动作。",
+    "failure_mode": "承诺借角色私人关系引荐，或把历史跨境描述当法律结论。",
+    "verification_needed": "真实联系、客户试点、资源成本与当地现行规则。"
+  },
+  {
+    "id": "C22",
+    "title": "分布式技术团队",
+    "topic": "资源与协作成本",
+    "claim_ids": [
+      "X114",
+      "X115"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "异地安排要同时评估人才获取、任务交接和反馈速度。",
+    "experiment": "用一次跨时区真实任务测试交付标准和响应机制。",
+    "failure_mode": "以低工资地区标签替代总成本评估，或忽视工作权限。",
+    "verification_needed": "返工、沟通延迟、协调人、质量和实际招聘条件。"
+  },
+  {
+    "id": "C23",
+    "title": "硅谷人才旋转门",
+    "topic": "网络流动与合作",
+    "claim_ids": [
+      "X105",
+      "X104"
+    ],
+    "source_ids": [
+      "S21"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "工作环境中的协作记录能比名片数量提供更多信息。",
+    "experiment": "整理曾共同交付的人，明确谁可核实能力、谁愿意协作。",
+    "failure_mode": "将某一生态当成所有地区的必经路径，或把认识大厂等同客户。",
+    "verification_needed": "协作历史、独立能力反馈、实际合作意愿。"
+  },
+  {
+    "id": "C24",
+    "title": "MLOps与推理优化",
+    "topic": "技术必要性与商业模式",
+    "claim_ids": [
+      "X148",
+      "X149"
+    ],
+    "source_ids": [
+      "S16"
+    ],
+    "historical_scope": "材料中的历史案例；当前情况须另查。未证明因果或投资归属。",
+    "evidence_kind": "editorial-application",
+    "mechanism": "用户确有技术痛点，还要确认谁为解决它付钱。",
+    "experiment": "针对一个真实负载测量成本与延迟改善，交给预算负责人评价。",
+    "failure_mode": "由“技术能省钱”跳到“必成独角兽”，忽视集成与获客成本。",
+    "verification_needed": "基线、改进效果、迁移成本、合同预算和替代方案。"
+  }
+]

@@ -6,7 +6,7 @@
 
 安装 → 调研问题 → 整理证据 → 带着资料继续对话
 
-`v4.0.0` · `随包知识` · `Codex / Claude Code / Cursor` · `MIT`
+`v5.0.0` · `随包知识` · `Codex / Claude Code / Cursor` · `MIT`
 
 [快速安装](#快速安装) · [三种功能](#三种功能) · [可以聊什么](#可以聊什么) · [资料与来源](#资料与来源) · [常见问题](#常见问题)
 
@@ -185,14 +185,18 @@ python3 <Skill目录>/scripts/organize_data.py --input records.input.jsonl --out
 
 | 随包内容 | 实际范围 | 查看 |
 | --- | --- | --- |
-| 来源索引 | 17个来源条目，包含问答、机构资料、摘要与补充线索 | [来源卡](references/source-cards.md) |
-| 提炼命题 | 63条短释义，附来源、日期、定位、归属与限制 | [命题账本](references/claims.jsonl) |
+| 来源索引 | 25个来源入口、23个证据组，包含正文、元数据、摘要与补充线索 | [来源卡](references/source-cards.md) |
+| 提炼命题 | 154条短释义，附来源、日期、定位、归属与限制 | [命题账本](references/claims.jsonl) |
 | 长访谈补充 | 约65分钟原视频自动字幕；约115与49分钟中文访谈完整本地机器转写 | [读取状态](references/sources.json) |
 | 思维与迁移 | 8个模型、反证、适用情境和观点张力 | [人物模型](references/persona.md) |
 | 使用与报告 | 对话示例、案例迁移、决策模板 | [项目模板](references/decision-template.md) |
+| 扩展主题 | 12份主题资料，按问题读取 | [知识库导航](references/knowledge-index.md) |
+| 历史案例 | 24张案例卡，附实验、失效条件与核验项 | [案例库](references/case-library.md) |
+| 原创对话 | 72个假设应用场景，明确区别于本人原话 | [场景库](references/scenario-library.md) |
+| 时间与缺口 | 时间线、观点张力、9条新待补线索 | [时间线](references/timeline.md) |
 | 蒸馏方法 | 对照4个公开人物蒸馏项目 | [方法对照](references/methods-comparison.md) |
 
-**研究截止：2026-10-09。** 中文机器转写仅对所列选段进行提炼阅读；不是约229分钟完整人工听校。原附件49个链接仅为线索索引，其中45个微信入口没有被算作45篇已读正文。被拦截、登录或付费限制的资料仍保留缺口。
+**研究截止：2026-10-09。** 约229分钟自动字幕与机器转写文本已读；未完成人工听校。原附件49个链接仅为线索索引，其中45个微信入口没有被算作45篇已读正文。被拦截、登录或付费限制的资料仍保留缺口。
 
 公开包提供原创整理、模型和来源入口，不分发完整原始采访、字幕、音频或私人附件。具体估值、业绩、临床效果及当期法律需要独立核验。
 
@@ -265,10 +269,24 @@ python3 -m unittest discover -s tests -v
 python3 scripts/find_evidence.py 数据 工作流
 ```
 
-修改资料后运行 `python3 scripts/build_portable.py` 和 `python3 scripts/build_manifest.py`。需要重新打包时运行 `python3 scripts/build_release.py --output ../xuxiaoyu-skill-v4.zip`，输出已存在时请选择新文件名；打包只包含清单中的公开文件，并自动检查解压后的哈希和链接。新增命题需核对真实说话人、日期和已读范围；转载不能增加独立证据数量。
+修改资料后运行 `python3 scripts/build_portable.py` 和 `python3 scripts/build_manifest.py`。需要重新打包时运行 `python3 scripts/build_release.py --output ../xuxiaoyu-skill-v5.zip`，输出已存在时请选择新文件名；打包只包含清单中的公开文件，并自动检查解压后的哈希和链接。新增命题需核对真实说话人、日期和已读范围；转载不能增加独立证据数量。
 
 包内测试覆盖换目录完整安装、更新备份、损坏检测，以及数据去重、出处保留、拒收留痕、CSV输出与防覆盖。发布时另检查 ZIP 解压完整性。对话场景见 [评估说明](references/evaluations.md)；安装检查不等于人物保真认证，目标宿主中的对话效果仍应实际试用。
 
 ---
 
 由 **陈硕** 整理。原创指令、短释义整理、模板与脚本使用 [MIT 许可](LICENSE)；外部来源权利归原作者。身份与来源说明见 [NOTICE.md](NOTICE.md)。
+
+## v5资料扩充与检索
+
+命题从63条扩展到154条，新增动点科技2017采访、2020投资界问答、2022科研转型分享等资料，并补读此前未提炼的中文ASR段落。25个入口中有2个关联版本；摘要、活动简介和正式披露按实际形态标记，不将它们当作完整本人访谈。待补音频与受限正文在[缺口清单](references/research-gaps.json)。
+
+12份主题资料、24张历史案例卡与72个对话场景是原创分析和应用设计，另计数量；不是154条人物命题之外的新增原话。结构化JSON与Markdown展示同一记录，不重复统计。包内没有模型权重、完整原文或音视频，所以ZIP仍会较小，实际资料统计见[corpus-stats.json](references/corpus-stats.json)。
+
+```bash
+python3 scripts/find_evidence.py 融资 --kind all --limit 8
+python3 scripts/find_evidence.py --source S16 --topic workflow --limit 8
+python3 scripts/find_evidence.py 数据 --kind cases --limit 5
+```
+
+按关键词查命题、案例、场景或主题；查询结果保留类型与原始来源入口。每轮先用知识核心，再加载相关资料。检索不会联网，也不能把应用场景改称本人回答。

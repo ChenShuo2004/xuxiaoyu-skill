@@ -1,0 +1,16 @@
+{
+  "version": "5.0.0",
+  "research_cutoff": "2026-10-09",
+  "source_entries": 25,
+  "independent_source_groups": 23,
+  "related_versions": 2,
+  "claim_records": 154,
+  "topic_dossiers": 12,
+  "historical_case_records": 24,
+  "original_dialogue_scenarios": 72,
+  "new_research_gap_entries": 9,
+  "unread_original_wechat_links": 45,
+  "automatic_text_minutes": 228.64,
+  "manual_audio_minutes_verified": null,
+  "counts_note": "命题与原创应用分别计算。关联转载不算独立采访，未读线索不算观点。JSON与Markdown是同一记录的两种展示，不重复统计。"
+}

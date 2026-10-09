@@ -1,0 +1,101 @@
+[
+  {
+    "id": "L01",
+    "title": "Women in Venture Capital，2022英文访谈",
+    "url": "https://www.buzzsprout.com/1243739/episodes/10132805-a-conversation-with-sue-xu-managing-partner-amino-capital-angel-investor-stanford-angels-entrepreneurs-stanford-school-of-medicine-phd",
+    "date": "2022-02-23",
+    "read_scope": "公开简介；45:21节目时长",
+    "access_status": "未获得音频或全文；原站与RSS请求失败",
+    "exclusion": "不提取嘉宾回答",
+    "checked_on": "2026-10-09",
+    "used_for_claims": false
+  },
+  {
+    "id": "L02",
+    "title": "特许金融街 Web3 访谈",
+    "url": "https://www.ximalaya.com/sound/555834867",
+    "date": "2022-07-27",
+    "read_scope": "Apple公开目录与约97分钟时长",
+    "access_status": "原节目空页面，RSS未取得内容",
+    "exclusion": "只保存节目线索，不提炼Web3细节",
+    "checked_on": "2026-10-09",
+    "used_for_claims": false
+  },
+  {
+    "id": "L03",
+    "title": "YUVC #7 完整内容候选",
+    "url": "https://podwise.ai/episodes/1069122",
+    "date": "2024-04-07",
+    "read_scope": "公开元数据",
+    "access_status": "完整转写需登录；未绕过",
+    "exclusion": "与S06同集；不能补作已读音频",
+    "checked_on": "2026-10-09",
+    "used_for_claims": false
+  },
+  {
+    "id": "L04",
+    "title": "DeepHow 女性STEM访谈",
+    "url": "https://deephow.cn/blog_article/104.html",
+    "date": "date-unconfirmed",
+    "read_scope": "搜索可见片段",
+    "access_status": "正文请求超时",
+    "exclusion": "不将搜索摘要扩写成观点",
+    "checked_on": "2026-10-09",
+    "used_for_claims": false
+  },
+  {
+    "id": "L05",
+    "title": "36Kr 裁员周期相关采访",
+    "url": "https://36kr.com/p/2012123444848003",
+    "date": "2022",
+    "read_scope": "搜索可见片段",
+    "access_status": "正文请求超时",
+    "exclusion": "完整发言未核对",
+    "checked_on": "2026-10-09",
+    "used_for_claims": false
+  },
+  {
+    "id": "L06",
+    "title": "清华香港2018区块链活动",
+    "url": "https://www.tsinghua.org.hk/e/12177",
+    "date": "2018",
+    "read_scope": "搜索可见活动元数据",
+    "access_status": "正文请求超时",
+    "exclusion": "不推断演讲内容",
+    "checked_on": "2026-10-09",
+    "used_for_claims": false
+  },
+  {
+    "id": "L07",
+    "title": "2016 VR论坛报道",
+    "url": "https://sinoustimes.com/contents/22/18562.html",
+    "date": "2016",
+    "read_scope": "搜索可见片段",
+    "access_status": "原网页503",
+    "exclusion": "其他嘉宾观点不能归给她",
+    "checked_on": "2026-10-09",
+    "used_for_claims": false
+  },
+  {
+    "id": "L08",
+    "title": "财新2015女天使采访",
+    "url": "https://finance.caixin.com/m/2015-03-04/100787778.html",
+    "date": "2015-03-04",
+    "read_scope": "可见开头",
+    "access_status": "后文付费，未绕过",
+    "exclusion": "不计全文已读",
+    "checked_on": "2026-10-09",
+    "used_for_claims": false
+  },
+  {
+    "id": "L09",
+    "title": "清华出版社投资书公开试读",
+    "url": "https://www.tup.com.cn/upload/books/yz/095885-01.pdf",
+    "date": "date-unconfirmed",
+    "read_scope": "部分公开试读",
+    "access_status": "作者与相关段落归属未完成确认",
+    "exclusion": "不能把作者投资规则当她观点",
+    "checked_on": "2026-10-09",
+    "used_for_claims": false
+  }
+]

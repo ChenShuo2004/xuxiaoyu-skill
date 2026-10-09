@@ -7,7 +7,9 @@
     "kind": "institution",
     "read_scope": "可见正文",
     "limitations": "管理合伙人、GlycoMira 创始科学家、斯坦福博士后；博士授予学校没有在该页确认。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S01",
+    "status": "read-body"
   },
   {
     "id": "S02",
@@ -17,7 +19,9 @@
     "kind": "institution",
     "read_scope": "可见正文",
     "limitations": "机构投资定位；不能逐条等同个人固定规则。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S02",
+    "status": "read-body"
   },
   {
     "id": "S03",
@@ -27,7 +31,9 @@
     "kind": "edited-interview",
     "read_scope": "十问十答正文",
     "limitations": "历史票额与地域表述不当作当前规则；文中商业写作广告排除。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S03",
+    "status": "read-body"
   },
   {
     "id": "S04",
@@ -37,7 +43,9 @@
     "kind": "edited-interview",
     "read_scope": "采访正文",
     "limitations": "医学类比与商业案例不是临床效果证明。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S04",
+    "status": "read-body"
   },
   {
     "id": "S05",
@@ -47,7 +55,9 @@
     "kind": "edited-interview",
     "read_scope": "整理后对谈正文",
     "limitations": "技术概括不能替代技术核验。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S05",
+    "status": "read-body"
   },
   {
     "id": "S06",
@@ -57,7 +67,9 @@
     "kind": "show-notes",
     "read_scope": "简介与两条节目方摘录；未转写全音频",
     "limitations": "主办方摘要，不能称完整本人回答。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S06",
+    "status": "read-summary"
   },
   {
     "id": "S07",
@@ -67,7 +79,9 @@
     "kind": "reported-quotes",
     "read_scope": "完整文章；仅采用明确归给 Sue 的段落",
     "limitations": "同场其他嘉宾不混入；成长轮指标不用于所有种子轮。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S07",
+    "status": "read-body"
   },
   {
     "id": "S08",
@@ -77,7 +91,9 @@
     "kind": "self-post",
     "read_scope": "本人正文",
     "limitations": "帖中 Midas 成绩属于 Larry Li，不属于 Sue。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S08",
+    "status": "read-body"
   },
   {
     "id": "S09",
@@ -85,9 +101,11 @@
     "url": "https://www.xiaoyuzhoufm.com/episode/69b7d71fcaaea1fb3b90c1bd",
     "date": "2026-03-16",
     "kind": "machine-transcript",
-    "read_scope": "完整49.35分钟音频本地ASR；选段阅读：03–25、31–38、40–49分钟",
+    "read_scope": "完整49.35分钟本地ASR文本已读；未人工听校整集",
     "limitations": "未人工听校整集、未自动分人；命题按问答边界判断归属，姓名数字低置信不采用。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S09",
+    "status": "read-body"
   },
   {
     "id": "S10",
@@ -97,7 +115,9 @@
     "kind": "show-notes",
     "read_scope": "主办方摘要",
     "limitations": "音频播放器提示 premium subscription，未绕过，未获得完整转写。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S10",
+    "status": "read-summary"
   },
   {
     "id": "S11",
@@ -107,7 +127,9 @@
     "kind": "edited-interview",
     "read_scope": "采访正文",
     "limitations": "历史趋势预测、宣传数字不当当前事实。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S11",
+    "status": "read-body"
   },
   {
     "id": "S12",
@@ -117,7 +139,9 @@
     "kind": "edited-interview",
     "read_scope": "公开正文全文；记者李京亚",
     "limitations": "产品与临床数字未独立验证，保留为历史商业案例。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S12",
+    "status": "read-body"
   },
   {
     "id": "S13",
@@ -127,7 +151,9 @@
     "kind": "reported-quotes",
     "read_scope": "完整报道；仅 Sue Consumer SaaS 段落",
     "limitations": "活动在2021-12-21；Karbon创始人及其他合伙人演讲不归给她。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S13",
+    "status": "read-body"
   },
   {
     "id": "S14",
@@ -137,7 +163,9 @@
     "kind": "report-summary",
     "read_scope": "网页可见 Sue 生涯设计段落",
     "limitations": "活动2025-04-19；五项原则来自斯坦福设计学院方法，她作分享，不是她发明。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S14",
+    "status": "read-body"
   },
   {
     "id": "S15",
@@ -147,7 +175,9 @@
     "kind": "automatic-captions",
     "read_scope": "完整64.72分钟官方视频自动英文字幕1471行已读",
     "limitations": "日期为上传日，开场提及8月；无人工听校，专名错误与自报业绩不作独立事实。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "independence_group": "S15",
+    "status": "read-body"
   },
   {
     "id": "S16",
@@ -155,9 +185,11 @@
     "url": "https://www.xiaoyuzhoufm.com/episode/643c591f9361a4e7c3b5b1de",
     "date": "2023-04-17",
     "kind": "machine-transcript",
-    "read_scope": "完整114.57分钟音频本地ASR；选段阅读：00–16、25–32、58–65、78–84、95–115分钟",
-    "limitations": "未人工听校整集；未读段落不用于提炼；主持人履历介绍与本人回答分开。",
-    "checked_on": "2026-10-09"
+    "read_scope": "完整114.57分钟本地ASR文本已读；未人工听校整集",
+    "limitations": "机器转写未人工听校、未自动分人；归属按问答边界判读，姓名、数字、绝对技术史表述低置信处排除。",
+    "checked_on": "2026-10-09",
+    "independence_group": "S16",
+    "status": "read-body"
   },
   {
     "id": "S17",
@@ -167,6 +199,104 @@
     "kind": "show-notes",
     "read_scope": "原节目周报与公开自动转写预览前08:22",
     "limitations": "完整转写需登录，未绕过；本版仅作补充线索，不增强核心模型。",
+    "checked_on": "2026-10-09",
+    "independence_group": "S17",
+    "status": "read-summary"
+  },
+  {
+    "id": "S18",
+    "title": "动点科技独立采访：大数据与第一张支票",
+    "url": "https://cn.technode.com/post/2017-11-16/aminocapital-xuxiaoyu/",
+    "date": "2017-11-16",
+    "kind": "edited-interview",
+    "read_scope": "采访正文全部可见问答及记者引述",
+    "limitations": "历史市场、隐私与跨境表述不代表当前规则；记者所写学位学校不作确认。",
+    "status": "read-body",
+    "independence_group": "S18",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S19",
+    "title": "硅谷徐博士AMINO：耶鲁分享，从科研到投资",
+    "url": "https://www.sohu.com/a/577258688_121462365",
+    "date": "2022-08-16",
+    "kind": "attributed-self-published-qa",
+    "read_scope": "公开七问七答正文",
+    "limitations": "署名账号发布的第一人称整理，账号所有权未独立认证；估值、成长率、技术史及临床效果不作独立事实。",
+    "status": "read-body",
+    "independence_group": "S19",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S20",
+    "title": "投资界问答：疫情、5G、直播与物联网",
+    "url": "https://news.pedaily.cn/202007/457410.shtml",
+    "date": "2020-07-16",
+    "kind": "edited-interview",
+    "read_scope": "全部七节问答，主持人段落分开",
+    "limitations": "2020年预测与产品数字不当作当前事实；18个月周期是受访者概括，非已验证规律；主持人GDP说法排除。",
+    "status": "read-body",
+    "independence_group": "S20",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S21",
+    "title": "上海国际人才网：旧金山湾区科创中心",
+    "url": "https://www.sh-italent.com/Article/201802/201802010001.shtml",
+    "date": "2018-02-01",
+    "kind": "reported-quotes",
+    "read_scope": "完整报道，仅归属徐霄羽的三段用于提取",
+    "limitations": "高校制度、政府角色等其他受访者观点不归给她；学校学位表述与官网确认范围区分。",
+    "status": "read-body",
+    "independence_group": "S21",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S22",
+    "title": "数码视讯2023-021：认购 AMINO IV 基金公告",
+    "url": "https://static.cninfo.com.cn/finalpage/2023-04-26/1216578332.PDF",
+    "date": "2023-04-26",
+    "kind": "public-filing",
+    "read_scope": "PDF五页可见文本；团队履历与基金治理相关段落",
+    "limitations": "公司正式披露，可支持当时团队与合同描述；不等同她本人表达，未独立审计其中宣传业绩。",
+    "status": "read-body",
+    "independence_group": "S22",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S23",
+    "title": "北大汇丰讲座：区块链和AI商业运营新实验",
+    "url": "https://www.phbs.pku.edu.cn/info/2151/88851.htm",
+    "date": "2018-06-25",
+    "kind": "event-metadata",
+    "read_scope": "讲座标题、日期与嘉宾简介",
+    "limitations": "未提供讲座讲稿或音频；2018任职不可冒充当前任职，不能凭标题生成演讲观点。",
+    "status": "read-metadata",
+    "independence_group": "S23",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S24",
+    "title": "beSUCCESS 韩文十问十答（关联版本）",
+    "url": "https://besuccess.com/%EC%8A%A4%ED%83%A0%ED%8F%AC%EB%93%9C%EC%99%80-%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC%EC%9D%98-%EC%9D%B4%EC%A0%90%EC%9D%84-%EC%B6%A9%EB%B6%84%ED%9E%88-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B3%A0/",
+    "date": "2019-06-11",
+    "kind": "related-language-version",
+    "read_scope": "十问十答正文，与S03逐问内容对照",
+    "limitations": "与S03同场采访高度一致，合并证据组；不另生重复命题，也不计第二次独立确认。",
+    "status": "read-body",
+    "independence_group": "S03",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S25",
+    "title": "钛媒体：2017投资趋势（S11关联原版）",
+    "url": "https://www.tmtpost.com/2558537.html",
+    "date": "2017-01-18",
+    "kind": "related-publication-version",
+    "read_scope": "全部采访正文，与S11搜狐分发对照",
+    "limitations": "同一采访的关联版本，不计两次独立证据；VR、基因组与融资叙述是历史观点。",
+    "status": "read-body",
+    "independence_group": "S11",
     "checked_on": "2026-10-09"
   }
 ]
