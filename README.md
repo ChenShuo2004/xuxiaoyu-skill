@@ -1,3 +1,5 @@
+> **English:** A standalone agent skill for researching, organizing public materials, and continuing conversations from evidence-based notes.
+
 <div align="center">
 
 # xuxiaoyu-skill · 徐霄羽
